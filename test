@@ -1,4 +1,0 @@
-properties = {"user": "occuser" , "password": "Exp3dia22" , "driver": "com.microsoft.sqlserver.jdbc.SQLServerDriver"}
-	jdbcUrl = "jdbc:sqlserver://10.23.18.135"
-  
-  	df.write.jdbc(url=jdbcUrl, table="Orchestration.dbo.CentralLog", mode = "append", properties=properties)
